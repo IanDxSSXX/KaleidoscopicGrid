@@ -9,7 +9,7 @@
 
    `GridView()`
 
-   <img src="/Users/torinossxx/Desktop/截屏2020-08-30 下午12.28.38.png" alt="截屏2020-08-30 下午12.28.38" style="zoom:50%;" />
+   !(https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/1.png)
 
 2. 光图片的模版，可以添加单机事件
 
