@@ -8,23 +8,24 @@
 1. 光色块默认展示模版（啥也干不了）
 
    `GridView()`
-   <img src="https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/2.png" width = 30% height = 30% />
+   
+   <img src="https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/1.png" width = 50% height = 50% />
 2. 光图片的模版，可以添加单机事件
 
    `GridView(gridType: .Image, images: getImages())`
 
-   ![](https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/2.png)
+   <img src="https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/2.png" width = 50% height = 50% />
 3. 图片和标题的模版，可选单机事件
 
    `GridView(gridType: .ImageTitle, images: getImages(), titles: getTitles())`
 
-   ![](https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/3.png)
+   <img src="https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/3.png" width = 50% height = 50% />
 
 4. 图片、标题和详情的模版，可选单机事件
 
    `GridView(gridType: .ImageTitleDiscription, images: getImages(), titles: getTitles(), discriptions: getDiscriptions())`
 
-   ![](https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/4.png)
+   <img src="https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/4.png" width = 50% height = 50% />
 
 5. 自定义视图
 
