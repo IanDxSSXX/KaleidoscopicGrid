@@ -9,25 +9,24 @@
 
    `GridView()`
 
-   ![](https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/1.png)
+   ![](https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/1.png =50%)
 
 2. 光图片的模版，可以添加单机事件
 
    `GridView(gridType: .Image, images: getImages())`
 
-   <img src="/Users/torinossxx/Desktop/截屏2020-08-30 下午12.31.03.png" alt="截屏2020-08-30 下午12.31.03" style="zoom:50%;" />
-
+   ![](https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/2.png)
 3. 图片和标题的模版，可选单机事件
 
    `GridView(gridType: .ImageTitle, images: getImages(), titles: getTitles())`
 
-   <img src="/Users/torinossxx/Desktop/截屏2020-08-30 下午12.29.52.png" alt="截屏2020-08-30 下午12.29.52" style="zoom:50%;" />
+   ![](https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/3.png)
 
 4. 图片、标题和详情的模版，可选单机事件
 
    `GridView(gridType: .ImageTitleDiscription, images: getImages(), titles: getTitles(), discriptions: getDiscriptions())`
 
-   <img src="/Users/torinossxx/Desktop/截屏2020-08-30 下午12.32.21.png" alt="截屏2020-08-30 下午12.32.21" style="zoom:50%;" />
+   ![](https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/4.png)
 
 5. 自定义视图
 
