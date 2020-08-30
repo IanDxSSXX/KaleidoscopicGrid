@@ -27,9 +27,9 @@ struct GridView: View {
     var onTap: () -> Void = { return }
     
     /// 根据列数获得宽，并监听设备旋转
-    @State var width: CGFloat = 0
+    @State private var width: CGFloat = 0
     /// 因为有奇奇怪怪的问题，所以经过测试要一个first，问题在于第一次进入通知中心就会发通知
-    @State var first: Bool = true
+    @State private var first: Bool = true
     
     /// 初始化
     init(gridType: GridType = .Default, custmizedViews: [AnyView] = [], images: [Image] = [], titles: [String] = [], discriptions: [String] = [], displayType: DisplayType = .Bigger, columns: Int = 0, onTap: @escaping () -> Void = { return }) {
@@ -322,6 +322,6 @@ struct ImageTitleDiscriptionView: View {
 
 struct Grid_Previews: PreviewProvider {
     static var previews: some View {
-        GridView(displayType: .Bigger)
+        GridView(gridType: .Image, images: getImages())
     }
 }

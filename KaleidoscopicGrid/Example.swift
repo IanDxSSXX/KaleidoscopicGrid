@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Example: View {
-    let choice = 0
+    let choice = 3
     var body: some View {
         if choice == 0 {
             /// 色块展示
@@ -21,7 +21,7 @@ struct Example: View {
             GridView(gridType: .ImageTitle, images: getImages(), titles: getTitles())
         }else if choice == 3 {
             /// 图片、标题和详情
-            GridView(gridType: .ImageTitle, images: getImages(), titles: getTitles(), discriptions: getTitles())
+            GridView(gridType: .ImageTitleDiscription, images: getImages(), titles: getTitles(), discriptions: getDiscriptions())
 //        }else if choice == 4 {
             /// 自定义的view
 //            GridView(gridType: .Customized, custmizedViews: [MyView])
