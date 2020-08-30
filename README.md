@@ -9,7 +9,7 @@
 
    `GridView()`
 
-   !(https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/1.png)
+   ![](https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/1.png)
 
 2. 光图片的模版，可以添加单机事件
 
