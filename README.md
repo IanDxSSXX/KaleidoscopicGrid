@@ -44,3 +44,8 @@
 5. 自定义视图
 
    `GridView(gridType: .Customized, custmizedViews: [MyView])`
+  
+### 三、使用说明
+直接拉下来用就行了= =
+
+### 有问题和改进欢迎push
