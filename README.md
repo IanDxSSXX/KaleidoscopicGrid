@@ -8,9 +8,7 @@
 1. 光色块默认展示模版（啥也干不了）
 
    `GridView()`
-
-   ![](https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/1.png!/scale/50)
-
+   <img src="https://github.com/Ian-Dx/KaleidoscopicGrid/blob/master/KaleidoscopicGrid/KaleidoscopicGrid/ExamplePics/2.png" width = 30% height = 30% />
 2. 光图片的模版，可以添加单机事件
 
    `GridView(gridType: .Image, images: getImages())`
