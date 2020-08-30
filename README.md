@@ -3,7 +3,21 @@
 
 ### 这是一个基于swiftui2.0的可以垂直调整大小的网格轮子
 
-### 一、五个模版
+### 一、参数说明
+
+| 参数名称        | 参数类型    | 参数功能                  | 默认值    |
+| --------------- | ----------- | ------------------------- | --------- |
+| .padding        | CGFloat     | 调整间距                  | 4         |
+| .custmizedViews | [AnyView]   | 自定义视图                | []        |
+| .images         | [Image]     | 模版中图片                | []        |
+| .titles         | [String]    | 模版中标题                | []        |
+| .discriptions   | [String]    | 模版中详情                | []        |
+| .columns        | Int         | 列数                      | 2/3 / 4/6 |
+| .displayType    | DisplayType | 选择列数iphone2/3 ipad4/6 | .Bigger   |
+| .gridType       | GridType    | 选择模版类型              | .Default  |
+| .onTap          | ()->Void    | 单机事件                  | {return}  |
+
+### 二、五个模版
 
 1. 光色块默认展示模版（啥也干不了）
 
@@ -30,17 +44,3 @@
 5. 自定义视图
 
    `GridView(gridType: .Customized, custmizedViews: [MyView])`
-
-### 二、参数说明
-
-| 参数名称        | 参数类型    | 参数功能                  | 默认值    |
-| --------------- | ----------- | ------------------------- | --------- |
-| .padding        | CGFloat     | 调整间距                  | 4         |
-| .custmizedViews | [AnyView]   | 自定义视图                | []        |
-| .images         | [Image]     | 模版中图片                | []        |
-| .titles         | [String]    | 模版中标题                | []        |
-| .discriptions   | [String]    | 模版中详情                | []        |
-| .columns        | Int         | 列数                      | 2/3 / 4/6 |
-| .displayType    | DisplayType | 选择列数iphone2/3 ipad4/6 | .Bigger   |
-| .gridType       | GridType    | 选择模版类型              | .Default  |
-| .onTap          | ()->Void    | 单机事件                  | {return}  |
